@@ -1,0 +1,34 @@
+{
+  "name": "nativeorientationlistener",
+  "widgetName": "NativeOrientationListener",
+  "version": "1.0.0",
+  "description": "Widget that fires an action when the device orientation changes",
+  "copyright": "CLEVR NL BV 2022",
+  "author": "Hunter Koppen",
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "Apache-2.0",
+  "config": {
+    "projectPath": "../..//"
+  },
+  "packagePath": "clevr",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:native",
+    "build": "pluggable-widgets-tools build:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:native"
+  },
+  "bugs": {
+    "url": "https://github.com/Hunter Koppen/nativeorientationlistener/issues"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.0.0"
+  },
+  "dependencies": {
+    "react-native-orientation-locker": "^1.4.0",
+    "react-native-windows": "^0.63.3"
+  }
+}
