@@ -25,10 +25,9 @@
     "url": "https://github.com/Hunter Koppen/nativeorientationlistener/issues"
   },
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^9.0.0"
+    "@mendix/pluggable-widgets-tools": "^10.21.2"
   },
   "dependencies": {
-    "react-native-orientation-locker": "^1.4.0",
-    "react-native-windows": "^0.63.3"
+    "react-native-orientation-locker": "^1.7.0"
   }
 }
