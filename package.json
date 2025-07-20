@@ -3,7 +3,7 @@
   "widgetName": "NativeOrientationListener",
   "version": "1.0.0",
   "description": "Widget that fires an action when the device orientation changes",
-  "copyright": "CLEVR NL BV 2022",
+  "copyright": "Kobeon B.V. 2025",
   "author": "Hunter Koppen",
   "engines": {
     "node": ">=12"
@@ -12,7 +12,7 @@
   "config": {
     "projectPath": "../..//"
   },
-  "packagePath": "clevr",
+  "packagePath": "kobeon",
   "scripts": {
     "start": "pluggable-widgets-tools start:native",
     "build": "pluggable-widgets-tools build:native",

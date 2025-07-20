@@ -5,7 +5,7 @@
             <widgetFile path="NativeOrientationListener.xml"/>
         </widgetFiles>
         <files>
-            <file path="clevr/nativeorientationlistener"/>
+            <file path="kobeon/nativeorientationlistener"/>
         </files>
     </clientModule>
 </package>
